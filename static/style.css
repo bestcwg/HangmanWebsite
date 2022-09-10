@@ -1,0 +1,18 @@
+.game-frame {
+    background-color: green;
+    height:700px
+}
+
+.word-to-guess {
+    display: grid;
+    padding-top: 30%;
+    font-size: 48px;
+    grid-auto-flow: column;
+    gap: 80px;
+    justify-content: center;
+}
+
+.word-to-guess #letter-in-word {
+    color: white;
+    text-align: center;
+}
