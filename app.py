@@ -23,7 +23,6 @@ def handle_data():
     if(guess == randomWord):
         for i in range(len(randomWord)):
             censoredRandomWord[i]=randomWord[i]
-        print('you won')
         return 'you won'
 
     result = ''
@@ -39,9 +38,7 @@ def handle_data():
     for i in range(len(randomWord)):
         if censoredRandomWord[i] == randomWord[i]:
             rightLetterCount += 1
-        print(rightLetterCount)
         if rightLetterCount == len(randomWord):
-            print('you won')
             return 'you won'
 
     return redirect(url_for('home'))
