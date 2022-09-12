@@ -1,6 +1,6 @@
 .game-frame {
     background-color: green;
-    height:700px
+    height:700px;
 }
 
 .word-to-guess {
@@ -15,4 +15,9 @@
 .word-to-guess #letter-in-word {
     color: white;
     text-align: center;
+}
+
+.user-input {
+    text-align: center;
+    margin-top: 5%;
 }
